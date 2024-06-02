@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodExpress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт FoodExpress</h1>
+    </header>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Контакты</a>
+        <a href="https://www.jusanbank.kz/">Jusan Bank</a>
+        <a href="https://kaspi.kz/">Kaspi Bank</a>
+        <a href="https://www.mastercard.com/">Mastercard</a>
+        <a href="#" onclick="payCash()">Наличные</a>
+        <a href="#" onclick="payCard()">Карта</a>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <h2>Выберите банк для оплаты:</h2>
+            <ul>
+                <li><a href="https://www.jusanbank.kz/">Jusan Bank</a></li>
+                <li><a href="https://kaspi.kz/">Kaspi Bank</a></li>
+                <li><a href="https://www.mastercard.com/">Mastercard</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 сайт FoodExpress. Все права защищены.</p>
+    </footer>
+
+    <script>
+        function payCash() {
+            alert('Оплата наличными. Пожалуйста, дождитесь звонка оператора для подтверждения заказа.');
+        }
+
+        function payCard() {
+            window.location.href = "function payCard() {
+    window.location.href = "https://yourfoodpaymentpage.com"; // Замените "https://yourfoodpaymentpage.com" на фактический URL вашей страницы оплаты
+}"; // Замените "https://example.com/payment" на фактический URL вашей страницы оплаты
+        }
+    </script>
+</body>
+</html>
